@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:weightSum="20"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="vn.eas.app1.DangnhapActivity"
+    android:background="#1aa738">
+    <GridView
+        android:id="@+id/gridviewid"
+        android:layout_weight="19.9"
+        android:numColumns="auto_fit"
+        android:verticalSpacing="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+    </GridView>
+    <LinearLayout
+        android:layout_weight="0.1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn_recyclerView"
+            android:text="RecyclerView"
+            android:textSize="15sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btn_sqlite"
+            android:text="Sqlite"
+            android:textSize="15sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btn_firebase"
+            android:text="Firebase"
+            android:textSize="15sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</LinearLayout>

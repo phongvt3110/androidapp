@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "752794538037",
+    "firebase_url": "https://blistering-torch-8603.firebaseio.com",
+    "project_id": "blistering-torch-8603",
+    "storage_bucket": "blistering-torch-8603.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:752794538037:android:b67805d79109251f",
+        "android_client_info": {
+          "package_name": "vn.eas.app1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "752794538037-uffmnfp2m3vu3nd5slt9apoqo9nfi4mm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "vn.eas.app1",
+            "certificate_hash": "adeaa811fd1cb30af0bc90b60a59b32db3d4d5d3"
+          }
+        },
+        {
+          "client_id": "752794538037-9e1e83ldnn4faqo0dc5fvhqk0lle50dc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWQn1fxgyRAzmUlr0CIMbgCcGzBcskQ6A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "752794538037-9e1e83ldnn4faqo0dc5fvhqk0lle50dc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
